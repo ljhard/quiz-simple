@@ -12,25 +12,25 @@
 | 名词           | 是什么               |
 | :------------- | :------------------- |
 | Node.js        | 是 JS 的一个 runtime |
-| npm            | 是 ……                |
+| npm            | 是 包管理器          |
 | npx            | 是 ……                |
 | nvm            | 是 ……                |
 | nrm            | 是 ……                |
-| yarn           | 是 ……                |
-| React          | 是 ……                |
-| Vue            | 是 ……                |
+| yarn           | 是 离线包管理        |
+| React          | 是JS框架，用JSX语言渲染，state状态管理树管理组件的重渲染，可利用shouldComponentUpdate优化组件是否进行更新         |
+| Vue            | 是JS框架，用<template>模板渲染,监听实例中的data变化来改变组件渲染，利用vuex通信，提交action,改变data中的属性值 |
 | Flux           | 是 ……                |
 | Mobx           | 是 ……                |
-| MVVM           | 是 ……                |
+| MVVM           | 是新的框架设计模式，viewmodel将view的改动同步到model数据层，同时将model层的数据变化同步到view，做出视图更新 |
 | TDD            | 是 ……                |
 | Jest/Mocha     | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
-| Electron       | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
-| SSR            | 是 ……                |
+| node_modules   | 是项目依赖的各种包集合              |
+| package.json   | 是项目依赖配置             |
+| ECMAScript     | 是js脚本语言，es5        |
+| Electron       | 是用于桌面客户端开发               |
+| Babel          | 是将es6+语法编译成浏览器能识别的依赖          |
+| Webpack        | 是打包管理，可配置入口文件、出口文件、模块依赖、开发测试环境等        |
+| SSR            | 是服务端渲染        |
 | BFF            | 是 ……                |
 | Serverless     | 是 ……                |
 | PWA            | 是 ……                |
@@ -49,4 +49,4 @@
 > - Youtube 的几个频道: Fireship、Traversy Media、DesignCourse …
 > - 掘金、知乎
 
-答：
+答：前端之巅、简书、csdn、SegmentFault、stack overflow
