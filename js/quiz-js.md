@@ -4,7 +4,7 @@
 
 请完成以下文件中的编码需求：
 
-- [查看 `clone.js`](./clone.js)
+- [查看 `clone.js`](./clone.js)   
 - [查看 `get-host.js`](./get-host.js)
 - [查看 `get-sum.js`](./get-sum.js)
 
@@ -18,8 +18,7 @@
 > 面向对象编程，代码逻辑可以内聚。
 > 禁止使用 var，不可变数据用 const 声明，可变数据用 let 声明。
 
-答：
-
+答：1、map方法会返回一个同等长度的新数组，foreach，return最后得到的是undefined，需要将数据装入一个新数组。2、可根据type类型复用一个组件。3、三目运算比if简洁
 ## 请问以下代码做了什么事情
 
 ```js
@@ -28,4 +27,4 @@ const getLoglevel = () => {
 };
 ```
 
-答：
+答：判断浏览器是否存了loglevel字段，如果localStorage.loglevel为null或undefined，则返回'INFO',否则返回获取到的值。
